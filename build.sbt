@@ -20,6 +20,6 @@ lazy val phantomDeps = (project in file("foo"))
       "org.playframework.twirl" %% "twirl-api" % "2.0.7",
       "org.scalatestplus.play" %%"scalatestplus-play" % "7.0.0",
       "org.playframework" %% "play" % "3.0.6",
-      "org.foundweekends.giter8" %% "giter8" % "0.16.2",
+      "org.foundweekends.giter8" %% "giter8" % "0.17.0",
     )
   )
