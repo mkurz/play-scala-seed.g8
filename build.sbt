@@ -17,9 +17,9 @@ lazy val phantomDeps = (project in file("foo"))
     libraryDependencies ++= Seq(
       //"org.playframework" % "sbt-plugin_2.12_1.0" % "3.0.6",
       //"org.scala-lang" % "scala-library" % "2.13.15",
-      "org.playframework.twirl" %% "twirl-api" % "2.0.7",
+      "org.playframework.twirl" %% "twirl-compiler" % "2.0.7",
       "org.scalatestplus.play" %%"scalatestplus-play" % "7.0.0",
-      "org.playframework" %% "play" % "3.0.6",
+      "org.playframework" %% "play-routes-compiler" % "3.0.6",
       "org.foundweekends.giter8" %% "giter8" % "0.16.2",
     )
   )
