@@ -13,13 +13,13 @@ lazy val phantomDeps = (project in file("foo"))
   .disablePlugins(ScriptedPlugin, Giter8Plugin)
   .settings(
     publish / skip := true,
-    scalaVersion := "2.13.15",
+    scalaVersion := "2.13.16",
     libraryDependencies ++= Seq(
       //"org.playframework" % "sbt-plugin_2.12_1.0" % "3.0.6",
       //"org.scala-lang" % "scala-library" % "2.13.15",
-      "org.playframework.twirl" %% "twirl-compiler" % "2.0.7",
-      "org.scalatestplus.play" %%"scalatestplus-play" % "7.0.0",
-      "org.playframework" %% "play-routes-compiler" % "3.0.6",
+      "org.playframework.twirl" %% "twirl-compiler" % "2.0.8",
+      "org.scalatestplus.play" %%"scalatestplus-play" % "7.0.1",
+      "org.playframework" %% "play-routes-compiler" % "3.0.7",
       "org.foundweekends.giter8" %% "giter8" % "0.16.2",
     )
   )
